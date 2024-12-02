@@ -3,7 +3,7 @@ Build AI Model on public credit risk data set to segment credit scoring
 
 Data set used: [Kaggle credit risk data set](https://www.kaggle.com/datasets/laotse/credit-risk-dataset/data)
 
-For more details on how the model is trained: [Phan, Credit Risk](https://github.com/locphan9/Credit-Scoring/edit/main/)
+For more details on how the model is trained: [Phan, Credit Risk](https://github.com/locphan9/Credit-Scoring/blob/main/Credit_risk_analytics.ipynb)
 
 ## Visualization
 ![image](https://github.com/user-attachments/assets/c264ad3d-ba46-4b83-b6df-bd05ab43b877)
@@ -34,6 +34,13 @@ The dataset can be used for classification tasks such as credit scoring, where t
 
 ### Imbalance
 The dataset may contain imbalanced data regarding loan defaults (i.e., the number of defaults might be lower compared to non-defaults).
+## Report Visualization
+
+<img width="301" alt="image" src="https://github.com/user-attachments/assets/b9b61c65-3749-479d-8f65-ec8ef4cc794f">
+
+**Purpose:** The loan report provides a comprehensive view of a borrower's financial profile, including loan details, historical data, predicted loan grade
+
+A table showing key borrower details such as age, income, homeownership status, loan amount, and loan interest rate. The loan amount is highlighted in bold, and the predicted loan grade (A-E)
 
 
 ## Credit Risk Weights
@@ -69,11 +76,12 @@ Targeted Marketing Campaigns: Use the insights from the model to create tailored
 - **Recommendation:** Develop targeted loan offers based on risk profiling—lower rates for "A" or "B" grade borrowers, and higher rates with more customized offers for "C", "D", and "E" grade borrowers.
 - **Action:** Design promotional campaigns around specific loan products that cater to each group’s risk profile, ensuring borrowers see a clear value proposition for their credit situation.
 ### 5. Data Science & Analytics Department
-Focus: Historical Default, Loan Interest Rate, Loan Amount
+
+- **Focus:** Historical Default, Loan Interest Rate, Loan Amount
 
 - **Actionable Item:**
 - **Model Refinement:** Given the model's heavy emphasis on these three dimensions, consider refining the feature engineering process by adding more granular data (e.g., credit score, payment history, income variability) to improve predictive accuracy.
-Recommendation: Review the weights and importance scores periodically to ensure they reflect actual risk behaviors and adjust features accordingly.
+**Recommendation:** Review the weights and importance scores periodically to ensure they reflect actual risk behaviors and adjust features accordingly.
 - **Action:** Continuously retrain the model with updated data and ensure that the model is adaptable to shifts in borrower behavior or economic conditions.
 ### 6. Customer Service Department
 - **Focus:** Loan Interest Rate, Historical Default
